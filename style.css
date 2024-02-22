@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+navbar{
+    background-color: green;
+}
+.nav-link{
+    color:rgb(98, 123, 231);
+    font-size: 1rem;    
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: rgb(21, 72, 139);
+    background-color: rgb(81, 166, 223);
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color:rgb(17, 57, 110);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.main{
+    background: url(./tian111.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+
+}
+.main h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+    background-color: transparent;
+    width: 50%;
+}   
+.main h6{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 4px solid rgb(147, 188, 235);
+    width: 35%;
+    background-color: transparent;
+}   
+.main .bt1{
+    height: 55px;
+    width:  138px;
+    background-color: rgb(31, 28, 29);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: rgb(23, 255, 215);
+    transition: 0.5s;
+}
+.main .bt2{
+    height: 55px;
+    width:  138px;
+    background-color:transparent;
+    color: rgb(19, 18, 18);
+    outline: none;
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: rgb(23, 255, 215);
+    transition: 0.5s;
+    color: white;
+}
+
+.about{
+    box-shadow: 10px 3px 28px -27px rgba(138, 19, 19, 0.68);
+-webkit-box-shadow: 10px 3px 28px -27px rgba(143, 20, 20, 0.68);
+-moz-box-shadow: 10px 3px 28px -27px rgba(121, 13, 13, 0.68);
+}
+    
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.progress{
+    background-color: rgb(rgb(71, 195, 204), green, blue);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: center;
+    height: 25px;
+    width: 100%;
+} 
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+
+}
+
+.progress p{
+    color: white;
+    padding:  8px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.btn1{
+    height: 30px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: rgb(135, 186, 235);
+    color: white;
+    border-radius: 4px;
+
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.btn2{
+    height: 30px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: rgb(135, 207, 240);
+    color: white;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
